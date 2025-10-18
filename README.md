@@ -12,7 +12,7 @@ Switching from Firefox to Brave made me recreate this theme (without its dynamic
 6. Enjoy !
 
 ## Yass, why it isn't dynamic ?
-After searching and reviewing Chromium's source code, and with the help of ChatGPT for code understanding (i'm not a C++ folk 🤡), it seems that the decoding of the custom image is made on a "single-frame" basis by this line : 
+After searching and reviewing Chromium's UI components source code, and with the help of ChatGPT for code understanding (i'm not a C++ folk 🤡), it seems that the decoding of the custom image is made on a "single-frame" basis by this line : 
 
 `476: SkBitmap bitmap = gfx::PNGCodec::Decode(*raw_data);`
 

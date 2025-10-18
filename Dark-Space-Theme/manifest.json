@@ -1,0 +1,53 @@
+{
+  "name": "Dark Space - Modified By Yqss",
+  "manifest_version": 3,
+  "version": "1.1.2",
+  "default_locale": "en",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyxCA8xx5LH8crX4x/F5TF2wOdN+NhzGHW6SZLpFSdYF89aUVKOF0HBR8cPY+CoR/ltk5zSabMAe5+NYai6SUFbOmhx9fGU4fn7k8vxrhP8BahEBopmsq3b27HRhIti6nff6bPl8GgthfI0ryXKYw2drwlRxNbexnNgbwLGcQkMgv5jnZ+YYMQAlmYmDSe4ysJUpceRs374ILM5pEgsMXXFsid8nqxnjXxdzl9BN3LO8ViZY0USRHRKR4p7iKPTeOICy0ndY+5al5zj8Emot8oum6FIBivVgVOjTL5MOsI18I+S7IlaB6ssqdaDHwrGNBo9BDMJHcSIO5yQSlXSUkgQIDAQAB",
+  "description": "Firefox Dark Space theme adapted to Chrome/Brave by Yqss",
+  "theme": {
+    "images": {
+      "theme_frame": "img/background.png",
+      "theme_frame_inactive": "img/background.png",
+      "theme_tab_background": "img/background.png",
+      "theme_window_control_background" : "img/background.png",
+      "theme_ntp_attribution" : "img/background.png"
+    },
+    "colors": {
+      "background_tab": [0,0,0,0.0],
+      "background_tab_inactive": [0,0,0],
+      "background_tab_incognito": [0,0,0],
+      "background_tab_incognito_inactive": [0,0,0],
+
+      "bookmark_text": [255,255,255,0.8],
+
+      "button_background": [51,51,51],
+
+      "frame": [0,0,0],
+      "frame_inactive": [0,0,0],
+      "frame_incognito": [0,0,0],
+      "frame_incognito_inactive": [0,0,0],
+      
+      "ntp_background": [0,0,0],
+      "ntp_link": [255,190,152],
+      "ntp_link_underline": [255,190,152],
+      "ntp_text": [255,255,255, 0.8],
+
+      "tab_text": [249,249,249],
+      "tab_background_text": [255,255,255],
+
+      "omnibox_background": [0,0,0],
+      "omnibox_expanded_background": [ 0, 0, 0 ],
+      "omnibox_text": [255, 255, 255],
+
+      "toolbar": [0,0,0],
+      "toolbar_text": [241,241,241]
+    },
+    "tints": {
+         "buttons": [ 0, 0, 1 ]
+      },
+    "properties": {
+      "ntp_background_repeat": "repeat-x"
+    }
+  }
+}
